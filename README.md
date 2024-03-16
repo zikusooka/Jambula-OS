@@ -1,7 +1,9 @@
 ![alt text](logo.png "Jambula OS (Pi Edition)")
 # Jambula-OS
 
-Jambula OS is a custom and embedded Linux distribution used by Jambula Labs to build smart devices such as JambulaTV, 
+Jambula OS is a custom and embedded Linux distribution for use on SoC devices such as the Raspberry Pi 
+
+It is mainly used by our company i.e. Jambula Labs to build smart devices such as JambulaTV, 
 a low cost and smart home hub that automates several tasks in your house or apartment while providing security and 
 privacy to you and your family. Read more about it at: https://jambulatv.com
 
@@ -23,22 +25,23 @@ Older Raspberry Pi models are supported out of the box
 
 1. Download the latest Jambula OS image to a temporary directory:
 
-   wget -P /tmp -c https://github.com/zikusooka/Jambula-OS/raw/main/jambulaOS-202312-022106-img.7z
+   wget -P /tmp -c https://github.com/zikusooka/Jambula-OS/raw/main/jambulaOS-2024.3.0-img.7z
 
 2. Extract the above image to a temporary directory using p7zip tool (https://www.7-zip.org/download.html)
 
    cd /tmp
 
-   7za e /tmp/jambulaOS-202312-022106-img.7z
+   7za e /tmp/jambulaOS-2024.3.0-img.7z
 
 3. Burn the resulting image i.e. sdcard.img to your SD card using a tool such as dd
 
-   Example: So assuming your SD card is mounted at /dev/sdb:
+   For example: If your SD card is mounted at /dev/sdb enter the following command line:
+
    dd status=progress if=/tmp/sdcard.img of=/dev/sdb
 
 4. Insert SD card into your raspberry pi and power it on
 
-5. Log in as root and use the default password of "JambulaOS"
+5. Log in as root and use the default password of "Jambula"
    IMPORTANT: Please change this immediately
 
 6. Enjoy!

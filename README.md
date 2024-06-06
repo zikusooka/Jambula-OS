@@ -16,7 +16,10 @@ line interface (CLI).
 
 You will also need a Raspberry Pi device with all accessories required to boot including and SD card.  
 
-Older Raspberry Pi models are supported out of the box
+
+<b>Supported Boards</b>
+
+1. Raspberry Pi 5 Model B Rev 1.0
 
 
 ![alt text](console.png "Jambula OS (Pi Edition)")
@@ -25,13 +28,13 @@ Older Raspberry Pi models are supported out of the box
 
 1. Download the latest Jambula OS image to a temporary directory:
 
-   wget -P /tmp -c https://github.com/zikusooka/Jambula-OS/raw/main/jambulaOS-2024.3.0-img.7z
+   wget -P /tmp -c https://github.com/zikusooka/Jambula-OS/raw/main/jambulaOS-202406-061205-img.7z
 
 2. Extract the above image to a temporary directory using p7zip tool (https://www.7-zip.org/download.html)
 
    cd /tmp
 
-   7za e /tmp/jambulaOS-2024.3.0-img.7z
+   7za e /tmp/jambulaOS-202406-061205-img.7z
 
 3. Burn the resulting image i.e. sdcard.img to your SD card using a tool such as dd
 

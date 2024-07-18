@@ -28,13 +28,13 @@ You will also need a Raspberry Pi device with all accessories required to boot i
 
 1. Download the latest Jambula OS image to a temporary directory:
 
-   wget -P /tmp -c https://github.com/zikusooka/Jambula-OS/raw/main/jambulaOS-202406-061205-img.7z
+   wget -P /tmp -c https://github.com/zikusooka/Jambula-OS/raw/main/jambulaOS-202407-181211-img.7z
 
 2. Extract the above image to a temporary directory using p7zip tool (https://www.7-zip.org/download.html)
 
    cd /tmp
 
-   7za e /tmp/jambulaOS-202406-061205-img.7z
+   7za e /tmp/jambulaOS-202407-181211-img.7z
 
 3. Burn the resulting image i.e. sdcard.img to your SD card using a tool such as dd
 
@@ -44,7 +44,13 @@ You will also need a Raspberry Pi device with all accessories required to boot i
 
 4. Insert SD card into your raspberry pi and power it on
 
-5. Log in as root and use the default password of "Jambula"
+5. During the first boot process, Jambula OS will perform an initial system 
+   configuration and reboot automatically. Upon full reboot, a setup screen will be 
+   presented to allow you setup your Pi according to your needs.
+
+![alt text](jambula_os_setup.png "Jambula OS Setup")
+ 
+6. Log in as root and use the default password of "Jambula"
    IMPORTANT: Please change this immediately
 
-6. Enjoy!
+7. Enjoy!

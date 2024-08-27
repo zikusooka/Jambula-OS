@@ -1,7 +1,7 @@
 ![alt text](logo.png "Jambula OS (Pi Edition)")
 # Jambula-OS
 
-Jambula OS is a custom and embedded Linux distribution for use on SoC devices such as the Raspberry Pi 
+Jambula OS is a custom tailored Linux operating system designed for SoC devices such as the Raspberry Pi
 
 It is mainly used by our company i.e. Jambula Labs to build smart devices such as JambulaTV, 
 a low cost and smart home hub that automates several tasks in your house or apartment while providing security and 
@@ -29,13 +29,13 @@ You will also need a Raspberry Pi 5 device with all accessories required to boot
 
 1. Download the latest Jambula OS image to a temporary directory:
 
-   wget -P /tmp -c https://github.com/zikusooka/Jambula-OS/raw/main/jambulaOS-202407-181211-img.7z
+   wget -P /tmp -c https://github.com/zikusooka/Jambula-OS/raw/main/jambulaOS-202408-270740-img.7z
 
 2. Extract the above image to a temporary directory using p7zip tool (https://www.7-zip.org/download.html)
 
    cd /tmp
 
-   7za e /tmp/jambulaOS-202407-181211-img.7z
+   7za e /tmp/jambulaOS-202408-270740-img.7z
 
 3. Burn the resulting image i.e. sdcard.img to your SD card using a tool such as dd
 

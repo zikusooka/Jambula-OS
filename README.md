@@ -29,13 +29,13 @@ You will also need a Raspberry Pi 5 device with all accessories required to boot
 
 1. Download the latest Jambula OS image to a temporary directory:
 
-   wget -P /tmp -c https://github.com/zikusooka/Jambula-OS/raw/main/jambulaOS-202408-270740-img.7z
+   wget -P /tmp -c https://github.com/zikusooka/Jambula-OS/raw/main/jambulaOS-202410-010544-img.7z
 
 2. Extract the above image to a temporary directory using p7zip tool (https://www.7-zip.org/download.html)
 
    cd /tmp
 
-   7za e /tmp/jambulaOS-202408-270740-img.7z
+   7za e /tmp/jambulaOS-202410-010544-img.7z
 
 3. Burn the resulting image i.e. sdcard.img to your SD card using a tool such as dd
 
@@ -46,12 +46,47 @@ You will also need a Raspberry Pi 5 device with all accessories required to boot
 4. Insert SD card into your raspberry pi and power it on
 
 5. During the first boot process, Jambula OS will perform an initial system 
-   configuration and reboot automatically. Upon full reboot, a setup screen will be 
-   presented to allow you setup your Pi according to your needs.
+   configuration and reboot automatically. 
 
-![alt text](jambula_os_setup.png "Jambula OS Setup")
- 
-6. Log in as root and use the default password of "Jambula"
-   IMPORTANT: Please change this immediately
+6. Upon reboot of your device, log in as root using the default password of "Jambula"
+   IMPORTANT: You will be prompted to change the password. Please do so immediately and 
+   remember to use a strong password
+  
+  ![alt text](jambula_os_setup.png "Jambula OS Setup")
 
-7. Enjoy!
+7. After changing your password, the Jambula OS setup menu will appear as shown above.
+   The setup menu will allow you to configure your device according to your needs.
+   TIP: To run the setup menu again, use the command line tool: jambula-setup
+
+8. Finally, if you like were this is going and are able, please support my work by 
+   making a contribution today.  Check out the FUNDING file for details.  You can also 
+   contact me via email using: joseph AT zikusooka.com
+
+9. Enjoy!
+
+
+
+<b>Home-Assistant </b>
+
+   Starting with October 2024 releases, support for Home-Assistant is included in this image.
+   This means you can now use the setup menu to perform local installs and setups of
+   Home-Assistant core. The current release includes version 2024.9.3.  However, you can also 
+   upgrade to the latest upstream versions once you are connected to the internet
+
+
+
+<b>TO DO</b>
+
+1. Raspberry Pi 4 and 3 series hardware support
+
+2. File sharing and syncing
+
+3. Network and device monitoring
+
+
+<b>Support Jambula OS</b>
+
+   Your financial support can help sustain and improve Jambula OS.  Please consider contributing 
+   to this project!  Ceck out the FUNDING file for details or contact me direct via email using: 
+   joseph AT zikusooka.com
+

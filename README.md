@@ -35,7 +35,7 @@ You will also need a Raspberry Pi 5 device with all accessories required to boot
 
    cd /tmp
 
-   7za e /tmp/jambulaOS-202410-010544-img.7z
+   7za e /tmp/jambulaOS-202501-281916-img.7z
 
 3. Burn the resulting image i.e. sdcard.img to your SD card using a tool such as dd
 

@@ -29,13 +29,13 @@ You will also need a Raspberry Pi 5 device with all accessories required to boot
 
 1. Download the latest Jambula OS image to a temporary directory:
 
-   wget -P /tmp -c https://jambula.net/downloads/Jambula-OS/jambulaOS-202501-171301-img.7z
+   wget -P /tmp -c https://jambula.net/downloads/Jambula-OS/jambulaOS-202501-281916-img.7z
 
 2. Extract the above image to a temporary directory using p7zip tool (https://www.7-zip.org/download.html)
 
    cd /tmp
 
-   7za e /tmp/jambulaOS-202410-010544-img.7z
+   7za e /tmp/jambulaOS-202501-281916-img.7z
 
 3. Burn the resulting image i.e. sdcard.img to your SD card using a tool such as dd
 
@@ -69,8 +69,8 @@ You will also need a Raspberry Pi 5 device with all accessories required to boot
 <b>Home-Assistant </b>
 
    Starting with October 2024 releases, support for Home-Assistant is included in this image.
-   This means you can now use the setup menu to perform local installs and setups of
-   Home-Assistant core. The current release includes version 2024.9.3.  However, you can also 
+   This means you can now use the setup menu to perform local installs and upgrades of
+   Home-Assistant core. The current release includes version 2025.1.4.  However, you can also 
    upgrade to the latest upstream versions once you are connected to the internet
 
 
@@ -87,6 +87,6 @@ You will also need a Raspberry Pi 5 device with all accessories required to boot
 <b>Support Jambula OS</b>
 
    Your financial support can help sustain and improve Jambula OS.  Please consider contributing 
-   to this project!  Ceck out the FUNDING file for details or contact me direct via email using: 
+   to this project!  Check out the FUNDING file for details or contact me direct via email using: 
    joseph AT zikusooka.com
 

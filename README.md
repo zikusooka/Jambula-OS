@@ -30,13 +30,13 @@ You will also need a Raspberry Pi 5 along with all required boot accessories, in
 
 1. Download the latest Jambula OS image to a temporary directory:
 
-   wget -P /tmp -c https://jambula.org/downloads/jambulaOS-202512-111023-img.7z
+   wget -P /tmp -c https://jambula.org/downloads/jambulaOS-202512-160919-img.7z
 
 2. Extract the above image to a temporary directory using p7zip tool (https://www.7-zip.org/download.html)
 
    cd /tmp
 
-   7za e /tmp/jambulaOS-202512-111023-img.7z
+   7za e /tmp/jambulaOS-202512-160919-img.7z
 
 3. Burn the resulting image i.e. sdcard.img to your SD card using a tool such as dd
 
@@ -88,9 +88,11 @@ You will also need a Raspberry Pi 5 along with all required boot accessories, in
 
 1. Raspberry Pi 4 and 3 series hardware support
 
-2. Photo management
+2. Offline chat messaging
 
-3. Network and device monitoring
+3. Photo management
+
+4. Network and device monitoring
 
 
 <b>IMPORTANT:  Support Jambula OS</b>

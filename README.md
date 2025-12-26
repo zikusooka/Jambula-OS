@@ -28,15 +28,17 @@ You will also need a Raspberry Pi 5 along with all required boot accessories, in
 
 <b> How to quickly get started </b>
 
-1. Download the latest Jambula OS image to a temporary directory:
+1. Download the latest Jambula OS image located at:
 
-   wget -P /tmp -c https://jambula.org/downloads/jambulaOS-202512-160919-img.7z
+   https://jambula.org
 
 2. Extract the above image to a temporary directory using p7zip tool (https://www.7-zip.org/download.html)
 
+   Example:
+
    cd /tmp
 
-   7za e /tmp/jambulaOS-202512-160919-img.7z
+   7za e jambulaOS-202512-261012-img.7z
 
 3. Burn the resulting image i.e. sdcard.img to your SD card using a tool such as dd
 

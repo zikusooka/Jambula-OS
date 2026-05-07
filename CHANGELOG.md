@@ -1,5 +1,44 @@
 # Changes
 
+
+𝟐𝟎𝟐6.5.𝟎
+--------
+
+Protect against the Copy Fail vulnerability
+
+Added support for 5 GHz Wi-Fi band with reduced Bluetooth interference on combo wireless devices
+
+Introduced built-in Prosody (XMPP) server with setup scripts and DNS support for local, offline messaging
+
+Added new tool: jambula-switch-wifi-ap-band for easier Wi-Fi band management
+
+Enabled automatic Wi-Fi interface detection during hotspot and client setup
+
+Improved firewall configuration with updated zones, policies, and service rules (including XMPP and OpenNDS)
+
+Added OpenNDS captive portal support with nginx integration
+
+Added SSL certificate setup script
+
+Upgraded Frigate to 0.17.x with continuous recording support and improved setup
+
+Upgraded go2rtc to 1.9.14 with improved camera configuration
+
+Enhanced MQTT tooling with multi-topic support and motion alerts
+
+Fixed slow shutdown issues by improving service ordering (snapclient)
+
+Added watchdog to improve MPD service reliability
+
+Improved dnsmasq with nftables (nftsets) support
+
+Added WebDAV support via nginx module
+
+Cleaned up deprecated patches and removed unused packages
+
+General system improvements, bug fixes, and stability enhancements
+
+
 𝟐𝟎𝟐𝟓.𝟗.𝟎
 ---------
 

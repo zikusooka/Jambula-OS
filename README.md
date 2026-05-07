@@ -24,7 +24,7 @@ You will also need a Raspberry Pi 5 along with all required boot accessories, in
 
 1. Raspberry Pi 5 Model B Rev 1.0
 
-![alt text](graphics/jambula_os_2025_12.png "Jambula OS Console - System Information")
+![alt text](graphics/jambula_os_2026_5.png "Jambula OS Console - System Information")
 
 <b> How to quickly get started </b>
 
@@ -38,7 +38,7 @@ You will also need a Raspberry Pi 5 along with all required boot accessories, in
 
    cd /tmp
 
-   7za e jambulaOS-202512-261012-img.7z
+   7za e jambulaOS-202605-071430-img.7z
 
 3. Burn the resulting image i.e. sdcard.img to your SD card using a tool such as dd
 
@@ -90,11 +90,11 @@ You will also need a Raspberry Pi 5 along with all required boot accessories, in
 
 1. Raspberry Pi 4 and 3 series hardware support
 
-2. Offline chat messaging
+2. Photo management
 
-3. Photo management
+3. Network and device monitoring
 
-4. Network and device monitoring
+4. Support for x86_64 platform
 
 
 <b>IMPORTANT:  Support Jambula OS</b>

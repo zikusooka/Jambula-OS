@@ -38,7 +38,7 @@ You will also need a Raspberry Pi 5 along with all required boot accessories, in
 
    cd /tmp
 
-   7za e jambulaOS-202605-071430-img.7z
+   7za e jambulaOS-202605-211547-img.7z
 
 3. Burn the resulting image i.e. sdcard.img to your SD card using a tool such as dd
 

@@ -1,5 +1,28 @@
 # Changes
 
+𝟐𝟎𝟐6.5.1
+--------
+
+Added XMPP chat server (Prosody) to the additional setup options.
+
+Added Subject Alternative Name (SAN) support to the SSL certificate generation script.
+
+Replaced systemd-resolved stub with dnsmasq for local DNS and changed the default system domain suffix to .lan.
+
+Mitigated CVE-2026-31431 local privilege escalation vulnerability in the kernel.
+
+Resolved critical system hangs during shutdown and reboots following the initial first-boot setup.
+
+Forced hard reboots via kernel mode to ensure a pristine cold-boot state after setup.
+
+Resolved a psplash boot hang caused by a missing framebuffer device, and removed the duplicate xlogo boot logo.
+
+Implemented stalled playback detection and recovery for online streams in MPD.
+
+Increased the TARGET_ROOTFS_EXT2_SIZE to 7168M for default and community editions.
+
+Added Raspberry Pi 5 WiFi firmware symlinks to resolve boot errors.
+
 
 𝟐𝟎𝟐6.5.𝟎
 --------

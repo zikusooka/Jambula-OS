@@ -18,17 +18,19 @@ services.  There's an initial ncurses style based setup program that allows you 
 will be provided by your Raspberry Pi.  However, in order to use it effectively, you need to already be 
 familiar with using Linux on the command line interface (CLI).
 
-You will also need a Raspberry Pi 5 along with all required boot accessories, including an SD card of at least 8 GB.
+You will also need a supported raspberry Pi board along with all required boot accessories, including an SD card of appropriate size.
 
 <b>Supported Boards</b>
 
 1. Raspberry Pi 5 Model B Rev 1.0
 
-![alt text](graphics/jambula_os_2026_5.png "Jambula OS Console - System Information")
+2. Raspberry Pi Zero W Version 1.1
+
+![alt text](graphics/jambula_os_version_motd.png "Jambula OS Console - System Information")
 
 <b> How to quickly get started </b>
 
-1. Download the latest Jambula OS image located at:
+1. Download the latest Jambula OS image corresponding to your specific board:
 
    https://jambula.org
 
@@ -38,7 +40,7 @@ You will also need a Raspberry Pi 5 along with all required boot accessories, in
 
    cd /tmp
 
-   7za e jambulaOS-202605-211547-img.7z
+   7za e jambulaOS-202609-291646-img.7z
 
 3. Burn the resulting image i.e. sdcard.img to your SD card using a tool such as dd
 
@@ -90,11 +92,11 @@ You will also need a Raspberry Pi 5 along with all required boot accessories, in
 
 1. Raspberry Pi 4 and 3 series hardware support
 
-2. Photo management
+2. IPv6 configuration in the setup wizard
 
 3. Network and device monitoring
 
-4. Support for x86_64 platform
+4. Full support for x86_64 platform
 
 
 <b>IMPORTANT:  Support Jambula OS</b>
